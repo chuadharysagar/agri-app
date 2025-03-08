@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import ProductList from '@/components/ProductList'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+    <Header/>
+    <ProductList/>
+    <Footer/>
+    </>
   )
 }
 
