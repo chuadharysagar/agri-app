@@ -7,14 +7,15 @@ const Header = () => {
    <nav className="bg-green-700 text-white p-4 shadow-lg">
    <div className="container mx-auto flex justify-between items-center">
      {/* Logo Placeholder */}
-     <div className="text-xl font-bold cursor-pointer">Logo</div>
+     <div className="text-xl font-bold cursor-pointer"><Link href='/'>Logo</Link></div>
 
      {/* Navigation Tabs */}
      <div className="hidden md:flex space-x-6">
-       <Link href="/home" className="hover:text-yellow-300 font-semibold">Home</Link>
+       <Link href="/" className="hover:text-yellow-300 font-semibold">Home</Link>
        <Link href="/about" className="hover:text-yellow-300 font-semibold">About</Link>
        <Link href="/services" className="hover:text-yellow-300 font-semibold">Services</Link>
        <Link href="/contact" className="hover:text-yellow-300 font-semibold">Contact</Link>
+       <Link href="/forms" className="hover:text-yellow-300 font-semibold">Forms</Link>
      </div>
 
      {/* Search Box */}

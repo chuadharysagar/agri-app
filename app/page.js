@@ -1,16 +1,14 @@
-import React from 'react'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import ProductList from '@/components/ProductList'
+import React from 'react';
+import ProductList from '@/components/ProductList';
+import HeroSection from '@/components/HeroSection';
 
-const page = () => {
+const Page = () => {
   return (
     <>
-    <Header/>
-    <ProductList/>
-    <Footer/>
+       <HeroSection/>
+      <ProductList />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default Page;
