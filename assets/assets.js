@@ -1,27 +1,37 @@
 import noAvatar from './noAvatar.png'
+import cart from './cart.png'
+import bag from './bag.png'
 
 export const assets ={
-    noAvatar
+    noAvatar,
+    cart,
+    bag,
 }
 
 export const foodItems = [
    {
      id: 1,
      name: "Organic Apples",
-     image:'/images/apple.png',
+     image: "/images/apple.png",
      rating: 4.5,
      description: "Fresh organic apples, rich in fiber and vitamins.",
      price: "$5.99/kg",
      category: "Fruits",
+     origin: "USA, New Zealand",
+     nutrients: "Fiber, Vitamin C, Antioxidants",
+     availability: "Year-round",
    },
    {
      id: 2,
      name: "Brown Rice",
-     image:'/images/brown-rice.png',
+     image: "/images/brown-rice.png",
      rating: 4.7,
      description: "Healthy and nutritious brown rice, great for a balanced diet.",
      price: "$3.49/kg",
      category: "Grains",
+     origin: "India, Thailand",
+     nutrients: "Carbohydrates, Fiber, Magnesium",
+     availability: "Year-round",
    },
    {
      id: 3,
@@ -31,6 +41,9 @@ export const foodItems = [
      description: "Crunchy and sweet carrots packed with beta-carotene.",
      price: "$2.99/kg",
      category: "Vegetables",
+     origin: "USA, Netherlands",
+     nutrients: "Vitamin A, Fiber, Potassium",
+     availability: "Year-round",
    },
    {
      id: 4,
@@ -40,6 +53,9 @@ export const foodItems = [
      description: "Sweet and creamy organic bananas, full of potassium.",
      price: "$1.99/kg",
      category: "Fruits",
+     origin: "Ecuador, Philippines",
+     nutrients: "Potassium, Vitamin B6, Fiber",
+     availability: "Year-round",
    },
    {
      id: 5,
@@ -49,6 +65,9 @@ export const foodItems = [
      description: "Premium quality almonds, a great source of protein and fiber.",
      price: "$12.99/kg",
      category: "Nuts",
+     origin: "California, Spain",
+     nutrients: "Protein, Healthy Fats, Vitamin E",
+     availability: "Year-round",
    },
    {
      id: 6,
@@ -58,6 +77,9 @@ export const foodItems = [
      description: "Fresh green spinach, loaded with iron and vitamins.",
      price: "$3.99/kg",
      category: "Vegetables",
+     origin: "USA, China",
+     nutrients: "Iron, Vitamin K, Magnesium",
+     availability: "Winter, Spring",
    },
    {
      id: 7,
@@ -67,6 +89,9 @@ export const foodItems = [
      description: "Nutritious whole wheat bread, perfect for a healthy diet.",
      price: "$2.49/loaf",
      category: "Bakery",
+     origin: "Local Bakeries",
+     nutrients: "Fiber, Protein, B Vitamins",
+     availability: "Year-round",
    },
    {
      id: 8,
@@ -76,6 +101,9 @@ export const foodItems = [
      description: "Juicy and ripe organic tomatoes, perfect for salads and cooking.",
      price: "$3.29/kg",
      category: "Vegetables",
+     origin: "Italy, Mexico",
+     nutrients: "Vitamin C, Lycopene, Fiber",
+     availability: "Spring, Summer",
    },
    {
      id: 9,
@@ -85,6 +113,9 @@ export const foodItems = [
      description: "Pure natural honey with no additives.",
      price: "$8.99/jar",
      category: "Sweeteners",
+     origin: "New Zealand, India",
+     nutrients: "Antioxidants, Natural Sugars",
+     availability: "Year-round",
    },
    {
      id: 10,
@@ -94,6 +125,9 @@ export const foodItems = [
      description: "Sweet and juicy strawberries, perfect for desserts and snacks.",
      price: "$6.49/kg",
      category: "Fruits",
+     origin: "USA, Spain",
+     nutrients: "Vitamin C, Antioxidants, Fiber",
+     availability: "Spring, Summer",
    },
  ];
  
