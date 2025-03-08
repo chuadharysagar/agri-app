@@ -1,11 +1,13 @@
 import noAvatar from './noAvatar.png'
 import cart from './cart.png'
 import bag from './bag.png'
+import upload_area from './upload_area.png'
 
 export const assets ={
     noAvatar,
     cart,
     bag,
+    upload_area,
 }
 
 export const foodItems = [
